@@ -12,8 +12,9 @@ const CommentBox=()=>{
       setAreaData('')
     }
     return <form onSubmit={handleSubmit}>
-      <h4>add a comment</h4>
-      <textarea onChange={handleClick} value={areaData}/>
+      <label htmlFor="comment-box">add a comment</label>
+
+      <textarea onChange={handleClick} id="comment-box" value={areaData}/>
          <button >submit data</button>
     </form>
 }
