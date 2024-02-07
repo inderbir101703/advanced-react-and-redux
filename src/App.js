@@ -1,6 +1,7 @@
 
 import CommentBox from "./component/CommentBox";
 import CommentList from "./component/CommentList";
+
 function App() {
   return (
     <div className="App">
